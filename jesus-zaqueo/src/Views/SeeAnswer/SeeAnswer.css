@@ -11,11 +11,3 @@
     width: 100%;
     border-bottom: 1px solid darkgray;
 }
-
-button {
-   background-color: #5574ff; 
-   color: white;
-   font-size: 18px;
-   font-weight: 600;
-   cursor: pointer;
-}
