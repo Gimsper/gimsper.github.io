@@ -75,8 +75,8 @@ function Minigame({ setShow }) {
             <header>
                 <h1>Jesús y Zaqueo</h1>
             </header>
-            <section className="minigame" style={{ flexDirection: showQuestion % 2 == 0 ? "row" : "row-reverse" }}>
-                <Images type="zaqueo" className="img-zaqueo-minigame" rotate={showQuestion % 2 == 0 ? false : true} />
+            <section className="minigame" style={{ flexDirection: showQuestion % 2 === 0 ? "row" : "row-reverse" }}>
+                <Images type="zaqueo" className="img-zaqueo-minigame" rotate={showQuestion % 2 === 0 ? false : true} />
                 <main className="welcome" style={{ width: "60%" }}>
                     <p>
                         { questions[showQuestion].text }

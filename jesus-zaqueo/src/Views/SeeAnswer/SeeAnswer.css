@@ -1,0 +1,21 @@
+.container-show-answers {
+    height: 300px;
+    overflow-y: auto;
+    width: 90%;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+.container-show-answers span {
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+}
+
+button {
+   background-color: #5574ff; 
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+}
