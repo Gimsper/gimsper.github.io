@@ -1,0 +1,95 @@
+/* Estilo del encabezado */
+button {
+    background: none;
+    border: none;
+}
+
+header {
+    background: linear-gradient(to right, #1E90FF, #87CEEB); /* Degradado azul */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra debajo del encabezado */
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: translateX(-50%);
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombras al texto */
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Estilo de la imagen */
+.image-container img {
+    width: 500px;
+    height: auto;
+    border: 5px solid #3CB371; /* Verde naturaleza */
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo de la información del personaje */
+.character-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+.character-info h2 {
+    font-size: 2em;
+    color: #8B4513; /* Marrón árbol */
+}
+
+.character-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.character-info ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+}
+
+.character-info ul li {
+    font-size: 1.2em;
+    background-color: #3CB371; /* Verde naturaleza */
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}

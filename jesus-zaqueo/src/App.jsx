@@ -1,35 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 import { Welcome } from './Views/Welcome';
+import { CharacterSelect } from './Views/CharacterSelect';
 import { useState } from 'react';
+import { Minigame } from './Views/Minigame';
 
 function App() {
-  const [show, setShow] = useState(true);
-  const toggleShow = (view) => setShow(view);
+  const [show, setShow] = useState(2);
 
-  if (show) {
-    return (
-      <Welcome setShow={toggleShow} />
-    )
-  } else {
-    return (
-      <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </header>
-        </div>
-    );
+  switch (show) {
+    case 0:
+      return <Welcome setShow={setShow} />;
+    case 1:
+      return <CharacterSelect setShow={setShow} />;
+    case 2:
+      return <Minigame setShow={setShow} />;
+    default:
+      return <h1>NOT FOUND (404)</h1>
   }
 }
 

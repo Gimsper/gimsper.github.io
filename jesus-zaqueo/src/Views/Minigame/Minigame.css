@@ -1,0 +1,68 @@
+body {
+    background: url('../../Components/Image/Tree/a2.png');
+    background-size: 100%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+
+
+section.minigame {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.minigame p {
+    font-size: 24px;
+    margin: 0;
+}
+
+section.minigame article {
+    margin: 30px 0 24px 0;
+    width: 100%;
+}
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 12px;
+    font-size: 16px;
+}
+
+.questions-container div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.questions-container button {
+    width: 20px;
+    height: 20px;
+    background-color: #50d844;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.questions-container button:hover {
+    background-color: #14f200;
+}
+
+.questions-container span {
+    user-select: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+    transition: 0.2s all ease;
+}
+
+.questions-container span:hover {
+    color: darkgrey;
+}
+
+.img-zaqueo-minigame {
+    width: 320px;
+}
