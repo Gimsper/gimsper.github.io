@@ -1,0 +1,65 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB 0%, #3CB371 50%, #8B4513 100%);
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #1E90FF; /* Azul cielo */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 3em;
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Estilo para los botones */
+.button-container button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:first-of-type {
+    background-color: #32CD32; /* Verde naturaleza */
+    color: white;
+}
+
+.button-container button:first-of-type:hover {
+    background-color: #228B22; /* Verde más oscuro */
+}
+
+.button-container button:last-of-type {
+    background-color: #8B4513; /* Marrón árbol */
+    color: white;
+}
+
+.button-container button:last-of-type:hover {
+    background-color: #5A2D0C; /* Marrón más oscuro */
+}
