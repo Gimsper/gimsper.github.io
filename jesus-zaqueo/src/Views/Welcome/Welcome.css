@@ -74,10 +74,16 @@ main p {
 
 .button-container button:last-of-type {
     background-color: #c5c5c5; /* Marrón árbol */
-    font-weight: 700;
+    font-weight: 600;
     color: #5e5e5e;
 }
 
 .button-container button:last-of-type:hover {
     background-color: #d0d0d0; /* Marrón más oscuro */
+}
+
+.button-container button {
+    background-color: #4875e6;
+    font-weight: 600;
+    color: white;
 }

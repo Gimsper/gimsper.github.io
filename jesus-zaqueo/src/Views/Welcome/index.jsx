@@ -1,7 +1,7 @@
 import "./Welcome.css";
 
 function Welcome({ setShow }) {
-    const urlCanva = "https://www.canva.com/design/DAGUiMX3Vms/EavbBsPK6mVLNHoj8SVnhQ/edit?utm_content=DAGUiMX3Vms&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton";
+    const urlCanva = "https://relacionespublicasevolucion.my.canva.site/zaqueo-y-jes-s";
 
     return (
         <>
@@ -17,6 +17,7 @@ function Welcome({ setShow }) {
 
                     <div className="button-container">
                         <button onClick={() => setShow(1)}>¡JUGAR!</button>
+                        <button onClick={() => setShow(4)}>Ver compromisos</button>
                         <button onClick={() => window.open(urlCanva) }>Conoce más del pasaje</button>
                     </div>
                 </main> 
