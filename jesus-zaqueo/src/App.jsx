@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Minigame } from './Views/Minigame';
 
 function App() {
-  const [show, setShow] = useState(2);
+  const [show, setShow] = useState(0);
 
   switch (show) {
     case 0:
